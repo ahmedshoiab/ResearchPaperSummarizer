@@ -8,6 +8,9 @@ It uses **Retrieval-Augmented Generation (RAG)** with **FAISS**, **Sentence Tran
 ## 🚀 Demo
 <img width="1205" height="505" alt="image" src="https://github.com/user-attachments/assets/7916b906-d687-443b-bfc5-1d112782aa88" />
 
+👉 So the pipeline is:
+📄 PDF → fitz extracts → SentenceTransformer encodes → faiss stores → Groq (LLaMA-3) answers → Gradio displays.
+
 
 **Flow of the app**:
 1. Upload PDF →  
@@ -56,7 +59,3 @@ Add Summarization mode (5-bullet summaries).
 Deploy to Hugging Face Spaces for free hosting.
 
 Multi-PDF support for comparing research papers.
-
-🤝 Contributing
-
-Pull requests are welcome! Please open an issue first to discuss major changes.
