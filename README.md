@@ -6,7 +6,8 @@ It uses **Retrieval-Augmented Generation (RAG)** with **FAISS**, **Sentence Tran
 ---
 
 ## 🚀 Demo
-![Demo Screenshot](f462d1e3-7d45-4532-89cf-b3328b63ae83.png)
+<img width="1205" height="505" alt="image" src="https://github.com/user-attachments/assets/7916b906-d687-443b-bfc5-1d112782aa88" />
+
 
 **Flow of the app**:
 1. Upload PDF →  
